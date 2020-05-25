@@ -19,44 +19,46 @@
         id="github"
         href="https://github.com/nvnguyen-ki?tab=repositories"
         pill
-        variant="outline-light"
+        variant="light"
       ></b-button>
       <b-button
         id="linkedin"
         href="https://www.linkedin.com/in/nguyen-n-a6b807138/"
         pill
-        variant="outline-light"
+        variant="light"
       ></b-button>
     </div>
   </div>
 </template>
 <style lang="scss">
 #content {
-  margin-right: 300px;
-  margin-left: 300px;
+  
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 150px;
+  
 }
 .social_links {
-  margin: 50px;
+  border-top: 1px solid black;
+  position: relative;
+  margin-top: 215px;
 }
 #linkedin {
   background-position: center center;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../assets/linkedin.svg");
+  background-image: url("../assets/linkedin.png");
   margin-top: 30px;
-
   margin: 5px;
 }
 #github {
   background-position: center center;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,7 +79,7 @@
 
 .bg-color {
   background-repeat: no-repeat;
-  background-image: url("../assets/random.jpg");
+  background-image: url("../assets/photoshopped_PIC.jpg");
   background-position: center center;
   height: 300px;
   width: 40%;
