@@ -1,103 +1,102 @@
 <template>
-  <div class="home">
-    <h1 id="intro">Hey, I'm Nguyen.</h1>
+  <div
+    class="rounded mx-auto d-block"
+    style="width: 900px; border: 3px solid; animation: border 30s infinite; margin-top: 60px;"
+  >
+    <h1 id="intro">
+      Hey, I'm Nguyen.
+    </h1>
+    <p>Software Developer & Data Science Enthusiast.</p>
 
-    <div class="bg-color"></div>
-
+    <h1 id="about">About:</h1>
+    <div><b-img class="image" v-bind="mainProps" rounded="circle"></b-img></div>
     <div class="about-content">
-      <h3 id="about">About:</h3>
-      <p id="content">
+      <h6 id="content">
         I am currently a CS major at University of South Carolina, Columbia. My
         main interest going into Computer Science has been game developement,
         but going into my senior year, I've become more interested in data
         science as well as software development. Here, you'll be able to see
         some of my personal projects that I have done or have been working on.
-      </p>
-    </div>
-    <div class="social_links">
-      <b-button
-        id="github"
-        href="https://github.com/nvnguyen-ki?tab=repositories"
-        pill
-        variant="light"
-      ></b-button>
-      <b-button
-        id="linkedin"
-        href="https://www.linkedin.com/in/nguyen-n-a6b807138/"
-        pill
-        variant="light"
-      ></b-button>
+      </h6>
     </div>
   </div>
 </template>
+
 <style lang="scss">
+// animations for border and text colors
+/*@-webkit-keyframes border {
+  0% {
+    border-color: rgb(241, 41, 81);
+  }
+  20% {
+    border-color: orange;
+  }
+  40% {
+    border-color: rgb(123, 250, 201);
+  }
+  60% {
+    border-color: green;
+  }
+  80% {
+    border-color: DarkBlue;
+  }
+  100% {
+    border-color: rgb(241, 41, 81);
+  }
+}
+
+@-webkit-keyframes text-color {
+  0% {
+    color: rgb(241, 41, 81);
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: rgb(123, 250, 201);
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: DarkBlue;
+  }
+  100% {
+    color: rgb(241, 41, 81);
+  }
+}
+*/
+// margin:auto will center the div
+
 #content {
-  
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-bottom: 150px;
-  
-}
-.social_links {
-  border-top: 1px solid black;
-  position: relative;
-  margin-top: 215px;
-}
-#linkedin {
-  background-position: center center;
-  height: 40px;
-  width: 40px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../assets/linkedin.png");
-  margin-top: 30px;
-  margin: 5px;
-}
-#github {
-  background-position: center center;
-  height: 40px;
-  width: 40px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../assets/GitHub-Mark-64px.png");
-  margin-top: 30px;
-  margin: 5px;
+  margin: 50px;
 }
 
 #intro {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-bottom: 50px;
   margin-top: 50px;
   background-position: center center;
 }
 
-.bg-color {
+.image {
+  position: relative;
   background-repeat: no-repeat;
-  background-image: url("../assets/photoshopped_PIC.jpg");
-  background-position: center center;
-  height: 300px;
-  width: 40%;
+  background: url("../assets/photoshopped_PIC.jpg");
+  height: 190px;
+  width: 190px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
-  left: 30%;
-  top: 30%;
-  border: 10px solid burlywood !important;
-  margin-bottom: 50px;
+  background-position: center center;
 }
 
 #about {
-  margin-bottom: 50px;
+  margin: 50px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
+  font-size: 20px;
 }
 </style>
 <script>

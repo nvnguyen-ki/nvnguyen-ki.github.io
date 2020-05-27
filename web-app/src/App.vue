@@ -1,51 +1,77 @@
 <template>
-  <div id="app" >
-    <div id="nav" >
-      <b-navbar toggleable="lg" type="dark" variant="dark" >
-        <b-navbar-nav >
-           <!---------using route "to" to link to different pages--------->
-          <b-nav-item id="home" to="/">Nguyen Nguyen</b-nav-item>
+  <div style="font-family: 'IBM Plex Serif', serif;" id="app">
+    <!---------Concert one font from google-font--------->
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <b-navbar id="nav" toggleable="lg" type="dark" variant="dark">
+      <b-navbar-nav>
+        <!---------using route "to" to link to different pages--------->
+        <b-nav-item id="home" to="/">Nguyen Nguyen</b-nav-item>
+      </b-navbar-nav>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item to="/projects">Projects</b-nav-item>
+          <b-nav-item to="/contact">Contact</b-nav-item>
         </b-navbar-nav>
-         <b-navbar-toggle target="nav-collapse" ></b-navbar-toggle>
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav>
-            <b-nav-item to="/projects" >Projects</b-nav-item>
-            <b-nav-item to="/contact">Contact</b-nav-item>
-          </b-navbar-nav>
-            <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto">
-            <b-nav-item href="#" >Resume</b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
-    </div>
-    <!---------transitioning from navbars--------->
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item href="#">Resume</b-nav-item>
+        </b-navbar-nav>
+        <b-navbar-nav>
+          <b-nav-item href="https://www.linkedin.com/in/nguyen-n-a6b807138/">
+            <img id="linkedin" src="./assets/linkedin_1.png" />
+          </b-nav-item>
+          <b-nav-item href="https://github.com/nvnguyen-ki?tab=repositories">
+            <img id="github" src="./assets/github.svg" />
+          </b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+
+    <!-------
+      <video class="video-intro" autoPlay muted="" loop>
+        <source src="./assets/bamboo_1.mp4" type="video/mp4"/>
+      </video>
+    --transitioning from navbars--------->
     <transition name="slide" mode="out-in">
       <router-view :key="$route.path" />
     </transition>
   </div>
 </template>
 
-
-
 <style lang="scss">
+/*.video-intro {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+*/
 
+#linkedin {
+  height: 30px;
+  width: 30px;
+}
+#github {
+  height: 30px;
+  width: 30px;
+}
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  
-  
-  //height: 967px;
-  //border: 5px solid gray;
+  margin: auto;
 }
-
 
 #nav {
   padding: 10px;
-  margin-right: auto;
+  margin: auto;
   a {
     font-weight: bold;
     color: white;
@@ -53,12 +79,12 @@
       color: burlywood;
     }
   }
-  
-  border-bottom: 1px solid black;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+  //background-position: center center;
 }
-
-
-
 
 /* sliding effect on navbars */
 .slide-enter-active,
@@ -69,7 +95,7 @@
 .slide-enter,
 .slide-leave-to {
   opacity: 0;
-  transform:translateX(5%);
+  transform: translateX(5%);
 }
 
 /* (home bar hover effect) */
