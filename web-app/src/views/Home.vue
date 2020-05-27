@@ -1,13 +1,12 @@
 <template>
   <div
     class="rounded mx-auto d-block"
-    style="width: 900px; border: 3px solid; animation: border 30s infinite; margin-top: 60px;"
+    style="width: 100vw; height:93vh; border: 1px solid; margin-top: 0px;"
   >
     <h1 id="intro">
       Hey, I'm Nguyen.
     </h1>
     <p>Software Developer & Data Science Enthusiast.</p>
-
     <h1 id="about">About:</h1>
     <div><b-img class="image" v-bind="mainProps" rounded="circle"></b-img></div>
     <div class="about-content">
@@ -21,7 +20,6 @@
     </div>
   </div>
 </template>
-
 <style lang="scss">
 // animations for border and text colors
 /*@-webkit-keyframes border {
@@ -94,7 +92,6 @@
 
 #about {
   margin: 50px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
   font-size: 20px;
 }
