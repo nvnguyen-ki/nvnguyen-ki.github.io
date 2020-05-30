@@ -1,25 +1,44 @@
 <template>
   <div
-    class="rounded mx-auto d-block"
-    style="width: 100vw; height:93vh; border: 1px solid; margin-top: 0px;"
+    class="Home rounded mx-auto d-block"
+    style="width: 100vw; height:93vh; margin-top: 0px; margin:auto;"
+
   >
     <h1 id="intro">
-      Hey, I'm Nguyen.
+      <TypeEffect />
     </h1>
-    <p>Software Developer & Data Science Enthusiast.</p>
-    <h1 id="about">About:</h1>
-    <div><b-img class="image" v-bind="mainProps" rounded="circle"></b-img></div>
+      <h1 id="about">about me</h1>
+    
+    <div class="image"></div>
     <div class="about-content">
-      <h6 id="content">
-        I am currently a CS major at University of South Carolina, Columbia. My
+      <h5 id="content">
+        I am currently a CS major at <span style="color: burlywood; margin: 0px;"> University of South Carolina, </span> Columbia. My
         main interest going into Computer Science has been game developement,
-        but going into my senior year, I've become more interested in data
-        science as well as software development. Here, you'll be able to see
+        but going into my senior year, I've become more interested in <span style="color: rgb(197, 236, 175); margin: 0px;"> data science, </span> as well as <span style="color: rgb(197, 236, 175); margin: 0px;"> software development. </span> Here, you'll be able to see
         some of my personal projects that I have done or have been working on.
-      </h6>
+        
+      </h5>
     </div>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+
+import TypeEffect from "../components/TypeEffect.vue";
+export default {
+  name: "Home",
+  data() {
+    return {
+      greeting: "hello"
+    };
+  },
+  components: {
+    TypeEffect
+  }
+};
+</script>
+
 <style lang="scss">
 // animations for border and text colors
 /*@-webkit-keyframes border {
@@ -66,39 +85,38 @@
 */
 // margin:auto will center the div
 
+#about {
+  margin-top: 50px;
+  position: relative;
+  font-size: 20px;
+  
+  margin-bottom: 50px;
+}
+
 #content {
-  margin: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 #intro {
   font-size: 25px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 50px;
   background-position: center center;
 }
 
 .image {
   position: relative;
+  margin:auto;
   background-repeat: no-repeat;
-  background: url("../assets/photoshopped_PIC.jpg");
-  height: 190px;
-  width: 190px;
+  background-image: url("../assets/pro_pic.png");
+  height: 150px;
+  width: 150px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
-}
-
-#about {
-  margin: 50px;
-  position: relative;
-  font-size: 20px;
+  border-radius: 50%;
 }
 </style>
-<script>
-export default {
-  name: "Home",
-  components: {}
-};
-</script>

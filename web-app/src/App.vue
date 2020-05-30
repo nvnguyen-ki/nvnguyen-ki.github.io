@@ -1,20 +1,20 @@
 <template>
-  <div style="font-family: 'IBM Plex Serif', serif;" id="app">
+  <div style="font-family: 'Quicksand', sans-serif;" id="app">
     <!---------Concert one font from google-font--------->
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;0,900;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <b-navbar
-      class="nav"
+      id="nav"
       toggleable="lg"
+      fixed="top"
       type="light"
       variant="light"
-      fixed="top"
     >
       <b-navbar-nav>
-        <!---------using route "to" to link to different pages--------->
-        <b-nav-item id="home_animation" href="/">Nguyen Nguyen</b-nav-item>
+        <!---------using href and smooth scrollings instead of routers--------->
+        <b-nav-item id="home_animation" href="#app">Nguyen Nguyen</b-nav-item>
       </b-navbar-nav>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
@@ -35,22 +35,69 @@
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
-    </b-navbar>    
-
-    <transition name="slide" mode="out-in">
-      <router-view :key="$route.path" />
+    </b-navbar>
+    <transition name="fade" mode="out-in">
+      <router-view />
     </transition>
 
     <div id="projects">
-      <h1 style="margin-top:70px;"> Empty </h1>
+      <h1 style="margin-top:70px;">Empty</h1>
     </div>
     <div id="contact">
-      <h1 style="margin-top:70px;"> nvnguyen@email.sc.edu </h1>
+      <h1 style="margin-top:70px;">nvnguyen@email.sc.edu</h1>
     </div>
-    
   </div>
 </template>
+
+<script>
+//scroll function that shrinks navbar on scroll
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("nav").style.padding = "0px";
+   
+  } else {
+    document.getElementById("nav").style.padding = "10px";
+    
+  }
+}
+/*
+// @ is an alias to /src
+import TypeEffect from "@/components/TypeEffect.vue";
+export default {
+  name: "Home",
+  data() {
+    return {
+      greeting: "hello"
+    };
+  },
+  components: {
+    TypeEffect
+  }
+};
+*/
+</script>
+
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400");
+#nav {
+  position: sticky;
+  padding: 10px;
+  a {
+    color: burl;
+    &.router-link-exact-active {
+      color: burlywood;
+    }
+  }
+  background-color: rgb(248, 237, 212);
+  // Animation
+  transition: 0.4s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -65,16 +112,16 @@
 */
 #projects {
   word-wrap: break-word;
-  border: 1px solid black;
-  height: 100vh;
+  border: 1px solid white;
+  height: 110vh;
   width: 100vw;
   position: relative;
 }
 
 #contact {
   word-wrap: break-word;
-  border: 1px solid black;
-  height: 100vh;
+  border: 1px solid white;
+  height: 30vh;
   width: 100vw;
   position: relative;
 }
@@ -88,48 +135,30 @@
   width: 30px;
 }
 
-.nav {
-  position: sticky;
-  padding: 10px;
-  margin-right: auto;
-  a {
-    font-weight: bold;
-    color: burl;
-    &.router-link-exact-active {
-      color: burlywood;
-    }
-  }
-  
-  
-  //-webkit-background-size: cover;
-  //-moz-background-size: cover;
-  //-o-background-size: cover;
-  //background-size: cover;
-  //background-position: center center;
-}
-
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-color: rgb(40, 37, 41);
+  color: rgb(236, 234, 228);
   //height: 967px;
   //border: 5px solid gray;
 }
 
-.nav::-webkit-scrollbar-track {
-  background: transparent;
-}
 
 /* sliding effect on navbars */
-.slide-enter-active,
-.slide-leave-active {
-  transition: opacity 0.1s, transform 0.5s;
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-property: height, opacity;
+  transition-timing-function: ease;
+  overflow: hidden;
 }
 
-.slide-enter,
-.slide-leave-to {
+.fade-enter,
+.fade-leave-active {
   opacity: 0;
-  transform: translateX(5%);
 }
 
 /* (home_animation bar hover effect) */
@@ -155,8 +184,8 @@
   content: "";
   right: 0px;
   top: 0;
-  border-top: 2px solid black;
-  border-right: 2px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
   transform: translate(-100%, 100%);
 }
 
@@ -164,8 +193,8 @@
   content: "";
   left: 0;
   bottom: 0;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
   transform: translate(100%, -100%);
 }
 
