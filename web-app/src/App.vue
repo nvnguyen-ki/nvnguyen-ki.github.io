@@ -5,13 +5,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;0,900;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <b-navbar
-      id="nav"
-      toggleable="lg"
-      fixed="top"
-      type="light"
-      variant="light"
-    >
+    <b-navbar id="nav" toggleable="lg" fixed="top" type="light" variant="light">
       <b-navbar-nav>
         <!---------using href and smooth scrollings instead of routers--------->
         <b-nav-item id="home_animation" href="#app">Nguyen Nguyen</b-nav-item>
@@ -51,14 +45,14 @@
 
 <script>
 //scroll function that shrinks navbar on scroll
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction();
+};
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("nav").style.padding = "0px";
-   
   } else {
     document.getElementById("nav").style.padding = "10px";
-    
   }
 }
 /*
@@ -144,7 +138,6 @@ html {
   //height: 967px;
   //border: 5px solid gray;
 }
-
 
 /* sliding effect on navbars */
 .fade-enter-active,

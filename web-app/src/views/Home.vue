@@ -2,21 +2,31 @@
   <div
     class="Home rounded mx-auto d-block"
     style="width: 100vw; height:93vh; margin-top: 0px; margin:auto;"
-
   >
     <h1 id="intro">
       <TypeEffect />
     </h1>
-      <h1 id="about">about me</h1>
-    
+    <h1 id="about">about me</h1>
+
     <div class="image"></div>
     <div class="about-content">
       <h5 id="content">
-        I am currently a CS major at <span style="color: burlywood; margin: 0px;"> University of South Carolina, </span> Columbia. My
-        main interest going into Computer Science has been game developement,
-        but going into my senior year, I've become more interested in <span style="color: rgb(197, 236, 175); margin: 0px;"> data science, </span> as well as <span style="color: rgb(197, 236, 175); margin: 0px;"> software development. </span> Here, you'll be able to see
-        some of my personal projects that I have done or have been working on.
-        
+        I am currently a CS major at
+        <span style="color: burlywood; margin: 0px;">
+          University of South Carolina,
+        </span>
+        Columbia. My main interest going into Computer Science has been game
+        developement, but going into my senior year, I've become more interested
+        in
+        <span style="color: rgb(197, 236, 175); margin: 0px;">
+          data science,
+        </span>
+        as well as
+        <span style="color: rgb(197, 236, 175); margin: 0px;">
+          software development.
+        </span>
+        Here, you'll be able to see some of my personal projects that I have
+        done or have been working on.
       </h5>
     </div>
   </div>
@@ -89,7 +99,7 @@ export default {
   margin-top: 50px;
   position: relative;
   font-size: 20px;
-  
+
   margin-bottom: 50px;
 }
 
@@ -107,7 +117,7 @@ export default {
 
 .image {
   position: relative;
-  margin:auto;
+  margin: auto;
   background-repeat: no-repeat;
   background-image: url("../assets/pro_pic.png");
   height: 150px;
