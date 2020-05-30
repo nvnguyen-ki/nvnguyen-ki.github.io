@@ -11,7 +11,7 @@
     <div class="image"></div>
     <div class="about-content">
       <h5 id="content">
-        I am currently a CS major at
+        I am currently a senior and CS major at
         <span style="color: burlywood; margin: 0px;">
           University of South Carolina,
         </span>
@@ -104,7 +104,7 @@ export default {
 }
 
 #content {
-  width: 80%;
+  width: 77%;
   margin: auto;
   margin-top: 50px;
 }

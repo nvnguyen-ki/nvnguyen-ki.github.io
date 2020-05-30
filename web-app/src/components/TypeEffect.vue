@@ -95,7 +95,7 @@ h1 {
     animation: none;
   }
 }
-@-webkit-keyframes cursorBlink {
+@keyframes cursorBlink {
   0% {
     background-color: rgb(211, 90, 90);
   }

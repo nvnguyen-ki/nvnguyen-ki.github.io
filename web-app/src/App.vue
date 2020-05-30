@@ -1,24 +1,25 @@
 <template>
   <div style="font-family: 'Quicksand', sans-serif;" id="app">
-    <!---------Concert one font from google-font--------->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;0,900;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <b-navbar id="nav" toggleable="lg" fixed="top" type="light" variant="light">
+    <b-navbar id="nav" toggleable="lg" fixed="top" type="light">
       <b-navbar-nav>
         <!---------using href and smooth scrollings instead of routers--------->
-        <b-nav-item id="home_animation" href="#app">Nguyen Nguyen</b-nav-item>
+        <b-nav-item id="home_animation" href="#app" style="font-weight: bold;"
+          >Nguyen Nguyen</b-nav-item
+        >
       </b-navbar-nav>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#projects">Projects</b-nav-item>
-          <b-nav-item href="#contact">Contact</b-nav-item>
+          <b-nav-item href="#projects" style="font-weight: bold;"
+            >Projects</b-nav-item
+          >
+          <b-nav-item href="#contact" style="font-weight: bold;"
+            >Contact</b-nav-item
+          >
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#">Resume</b-nav-item>
+          <b-nav-item href="#" style="font-weight: bold;">Resume</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
           <b-nav-item href="https://www.linkedin.com/in/nguyen-n-a6b807138/">
@@ -35,19 +36,24 @@
     </transition>
 
     <div id="projects">
-      <h1 style="margin-top:70px;">Empty</h1>
+      <h1 style="margin-top:70px;" data-aos="fade-right">Empty</h1>
     </div>
     <div id="contact">
-      <h1 style="margin-top:70px;">nvnguyen@email.sc.edu</h1>
+      <h1 style="margin-top:70px;" data-aos="fade-right">
+        -contact me for no reason-
+      </h1>
+      <p data-aos="fade-right">nguyentwotimes@gmail.com</p>
     </div>
   </div>
 </template>
 
 <script>
 //scroll function that shrinks navbar on scroll
+
 window.onscroll = function() {
   scrollFunction();
 };
+
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("nav").style.padding = "0px";
@@ -83,7 +89,7 @@ export default {
       color: burlywood;
     }
   }
-  background-color: rgb(248, 237, 212);
+  background-color: rgb(236, 232, 222);
   // Animation
   transition: 0.4s;
 }
@@ -116,6 +122,14 @@ html {
   word-wrap: break-word;
   border: 1px solid white;
   height: 30vh;
+  width: 100vw;
+  position: relative;
+}
+
+#credits {
+  word-wrap: break-word;
+  border: 1px solid white;
+  height: 20vh;
   width: 100vw;
   position: relative;
 }
