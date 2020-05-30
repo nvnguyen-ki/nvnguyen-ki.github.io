@@ -35,21 +35,28 @@
       <router-view />
     </transition>
 
-    <div id="projects">
-      <h1 style="margin-top:70px;" data-aos="fade-right">Empty</h1>
-    </div>
+    <Projects id="projects" />
     <div id="contact">
       <h1 style="margin-top:70px;" data-aos="fade-right">
-        -contact me for no reason-
+        -contact me for any reason-
       </h1>
       <p data-aos="fade-right">nguyentwotimes@gmail.com</p>
     </div>
+    <div id="end"></div>
   </div>
 </template>
 
 <script>
-//scroll function that shrinks navbar on scroll
+import Projects from "./views/Projects.vue";
+export default {
+  name: "App",
 
+  components: {
+    Projects
+  }
+};
+
+//scroll function that shrinks navbar on scroll
 window.onscroll = function() {
   scrollFunction();
 };
@@ -110,10 +117,11 @@ html {
   overflow: hidden;
 }
 */
-#projects {
+
+#end {
   word-wrap: break-word;
-  border: 1px solid white;
-  height: 110vh;
+  background: rgb(233, 104, 104);
+  height: 1vh;
   width: 100vw;
   position: relative;
 }

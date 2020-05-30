@@ -1,7 +1,7 @@
 <template>
   <div
     class="Home rounded mx-auto d-block"
-    style="width: 100vw; height:93vh; margin-top: 0px; margin:auto;"
+    style="width: 100vw; height:93vh; margin-top: 0px; margin:auto; border-bottom: 1px solid white;"
   >
     <h1 id="intro">
       <TypeEffect />
@@ -15,15 +15,17 @@
         <span style="color: burlywood; margin: 0px;">
           University of South Carolina,
         </span>
-        Columbia. My main interest going into Computer Science has been game
-        developement, but going into my senior year, I've become more interested
-        in
+        Columbia. My main interest going into Computer Science has been
+        <span style="color: rgb(197, 236, 175); margin: 0px;">
+          game/software development,
+        </span>
+        but going into my senior year, I've become more interested in
         <span style="color: rgb(197, 236, 175); margin: 0px;">
           data science,
         </span>
         as well as
         <span style="color: rgb(197, 236, 175); margin: 0px;">
-          software development.
+          UI/UX and frontend designing.
         </span>
         Here, you'll be able to see some of my personal projects that I have
         done or have been working on.
@@ -38,11 +40,6 @@
 import TypeEffect from "../components/TypeEffect.vue";
 export default {
   name: "Home",
-  data() {
-    return {
-      greeting: "hello"
-    };
-  },
   components: {
     TypeEffect
   }
