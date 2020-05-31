@@ -1,13 +1,13 @@
 <template>
   <div
     class="Home rounded mx-auto d-block"
-    style="width: 100vw; height:93vh; margin-top: 0px; margin:auto; border-bottom: 1px solid white;"
+    data-aos="fade-right"
+    style="width: 100vw; height: auto;margin-top: 60 px; margin:auto;"
   >
     <h1 id="intro">
       <TypeEffect />
     </h1>
     <h1 id="about">about me</h1>
-
     <div class="image"></div>
     <div class="about-content">
       <h5 id="content">
@@ -28,25 +28,60 @@
           UI/UX and frontend designing.
         </span>
         Here, you'll be able to see some of my personal projects that I have
-        done or have been working on.
+        done or have been working on. Here, you'll be able to see some of my
+        personal projects that I have done or have been working on.
       </h5>
     </div>
+    <h5 id="bucket">
+      Around my freshman year of college, my main goal was to learn game
+      developement. At the time I never really knew the world of UI/UX design,
+      automation, or data science. 3 years later... in my final year, with a
+      variety of new gained knowledge, I've decided to create bucket list of
+      projects to do before my college days end.
+    </h5>
+    <section id="list" aria-labelledby="todos-label">
+      <ul>
+        <li>
+          Create a portfolio website
+        </li>
+        <li>
+          Automate something with Python
+        </li>
+        <li>
+          Sleep
+        </li>
+        <li>
+          Sleep
+        </li>
+        <li>
+          Sleep
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-
-import TypeEffect from "../components/TypeEffect.vue";
-export default {
-  name: "Home",
-  components: {
-    TypeEffect
-  }
-};
-</script>
-
 <style lang="scss">
+#list {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  list-style-position: inside;
+  border: 1px solid;
+}
+
+#bucket {
+  border: 1px solid;
+  height: auto;
+  display: inline-block;
+  text-align: left;
+  width: 33%;
+  font-size: 20px;
+  margin-top: 150px;
+  left: 0px;
+  position: relative;
+}
+
 // animations for border and text colors
 /*@-webkit-keyframes border {
   0% {
@@ -96,7 +131,6 @@ export default {
   margin-top: 50px;
   position: relative;
   font-size: 20px;
-
   margin-bottom: 50px;
 }
 
@@ -127,3 +161,13 @@ export default {
   border-radius: 50%;
 }
 </style>
+
+<script>
+import TypeEffect from "../components/TypeEffect.vue";
+export default {
+  name: "Home",
+  components: {
+    TypeEffect
+  }
+};
+</script>

@@ -1,25 +1,28 @@
 <template>
-  <div style="font-family: 'Quicksand', sans-serif;" id="app">
+  <div
+    style="font-family: 'Quicksand', sans-serif; display: inline-block;"
+    id="app"
+  >
     <b-navbar id="nav" toggleable="lg" fixed="top" type="light">
       <b-navbar-nav>
         <!---------using href and smooth scrollings instead of routers--------->
         <b-nav-item id="home_animation" href="#app" style="font-weight: bold;"
-          >Nguyen Nguyen</b-nav-item
+          >nguyen nguyen</b-nav-item
         >
       </b-navbar-nav>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item href="#projects" style="font-weight: bold;"
-            >Projects</b-nav-item
+            >projects</b-nav-item
           >
           <b-nav-item href="#contact" style="font-weight: bold;"
-            >Contact</b-nav-item
+            >contact</b-nav-item
           >
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#" style="font-weight: bold;">Resume</b-nav-item>
+          <b-nav-item href="#" style="font-weight: bold;">resume</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
           <b-nav-item href="https://www.linkedin.com/in/nguyen-n-a6b807138/">
@@ -34,13 +37,18 @@
     <transition name="fade" mode="out-in">
       <router-view />
     </transition>
-
+    <!--- projects.vue --->
     <Projects id="projects" />
     <div id="contact">
-      <h1 style="margin-top:70px;" data-aos="fade-right">
+      <h1 style="margin:20px;" data-aos="fade-right">
         -contact me for any reason-
+        <p style="font-size:15px; margin-top:10px;">
+          get to know me more by emailing me.
+        </p>
+        <p style="font-size:15px; margin-top:10px;">
+          <span style="color:rgb(211, 90, 90);">nguyentwotimes@gmail.com</span>
+        </p>
       </h1>
-      <p data-aos="fade-right">nguyentwotimes@gmail.com</p>
     </div>
     <div id="end"></div>
   </div>
@@ -50,7 +58,6 @@
 import Projects from "./views/Projects.vue";
 export default {
   name: "App",
-
   components: {
     Projects
   }
@@ -86,6 +93,16 @@ export default {
 </script>
 
 <style lang="scss">
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-color: rgb(40, 37, 41);
+  color: rgb(236, 234, 228);
+  position: relative;
+  height: auto;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Quicksand:300,400");
 #nav {
   position: sticky;
@@ -96,12 +113,13 @@ export default {
       color: burlywood;
     }
   }
-  background-color: rgb(236, 232, 222);
+  background-color: rgb(252, 249, 241);
   // Animation
   transition: 0.4s;
 }
-
 html {
+  height: 100%;
+  width: 100%;
   scroll-behavior: smooth;
 }
 
@@ -128,17 +146,9 @@ html {
 
 #contact {
   word-wrap: break-word;
-  border: 1px solid white;
-  height: 30vh;
-  width: 100vw;
-  position: relative;
-}
-
-#credits {
-  word-wrap: break-word;
-  border: 1px solid white;
+  border-top: 1px solid white;
   height: 20vh;
-  width: 100vw;
+  width: auto;
   position: relative;
 }
 
@@ -149,16 +159,6 @@ html {
 #github {
   height: 30px;
   width: 30px;
-}
-
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  background-color: rgb(40, 37, 41);
-  color: rgb(236, 234, 228);
-  //height: 967px;
-  //border: 5px solid gray;
 }
 
 /* sliding effect on navbars */
