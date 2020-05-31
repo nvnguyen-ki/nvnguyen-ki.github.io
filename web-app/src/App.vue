@@ -3,6 +3,7 @@
     style="font-family: 'Quicksand', sans-serif; display: inline-block;"
     id="app"
   >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <b-navbar id="nav" toggleable="lg" fixed="top" type="light">
       <b-navbar-nav>
         <!---------using href and smooth scrollings instead of routers--------->
@@ -40,13 +41,13 @@
     <!--- projects.vue --->
     <Projects id="projects" />
     <div id="contact">
-      <h1 style="margin:20px;" data-aos="fade-right">
+      <h1 style="margin:20px;">
         -contact me for any reason-
         <p style="font-size:15px; margin-top:10px;">
           get to know me more by emailing me.
         </p>
         <p style="font-size:15px; margin-top:10px;">
-          <span style="color:rgb(211, 90, 90);">nguyentwotimes@gmail.com</span>
+          <span style="color:rgb(211, 90, 90); ">nguyentwotimes@gmail.com</span>
         </p>
       </h1>
     </div>

@@ -29,59 +29,13 @@
         </span>
         Here, you'll be able to see some of my personal projects that I have
         done or have been working on. Here, you'll be able to see some of my
-        personal projects that I have done or have been working on.
+        personal projects that I have done, have been working on, or plan to do.
       </h5>
     </div>
-    <h5 id="bucket">
-      Around my freshman year of college, my main goal was to learn game
-      developement. At the time I never really knew the world of UI/UX design,
-      automation, or data science. 3 years later... in my final year, with a
-      variety of new gained knowledge, I've decided to create bucket list of
-      projects to do before my college days end.
-    </h5>
-    <section id="list" aria-labelledby="todos-label">
-      <ul>
-        <li>
-          Create a portfolio website
-        </li>
-        <li>
-          Automate something with Python
-        </li>
-        <li>
-          Sleep
-        </li>
-        <li>
-          Sleep
-        </li>
-        <li>
-          Sleep
-        </li>
-      </ul>
-    </section>
   </div>
 </template>
 
 <style lang="scss">
-#list {
-  display: inline-block;
-  position: relative;
-  width: 20%;
-  list-style-position: inside;
-  border: 1px solid;
-}
-
-#bucket {
-  border: 1px solid;
-  height: auto;
-  display: inline-block;
-  text-align: left;
-  width: 33%;
-  font-size: 20px;
-  margin-top: 150px;
-  left: 0px;
-  position: relative;
-}
-
 // animations for border and text colors
 /*@-webkit-keyframes border {
   0% {

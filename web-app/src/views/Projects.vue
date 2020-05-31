@@ -1,7 +1,7 @@
 <template>
-  <div id="projects" style="margin-top:180px;">
+  <div id="projects">
     <div id="table">
-      <h1 id="header" data-aos="fade-right">
+      <h1 id="header">
         notable projects
         <p style="text-align: right; font-size: 12px; ">
           (head over to my github page for sources)
@@ -19,6 +19,35 @@
         data-aos="fade-right"
       >
       </b-table>
+      <div id="bucket-list">
+        <h5 id="future">future endeavors</h5>
+        <h5 id="bucket" data-aos="fade-right">
+          Around my freshman year of college, my main goal was to learn game
+          developement. At the time I never really knew the world of UI/UX
+          design, automation, or data science. 3 years later... in my final
+          year, with a variety of new gained knowledge, I've decided to create
+          bucket list of projects to do before my college days end.
+        </h5>
+        <section id="list" aria-labelledby="todos-label" data-aos="fade-right">
+          <ul>
+            <li>
+              Create a portfolio website
+            </li>
+            <li>
+              Automate something with Python
+            </li>
+            <li>
+              Create a database of something
+            </li>
+            <li>
+              Learn a new popular software
+            </li>
+            <li>
+              Sleep
+            </li>
+          </ul>
+        </section>
+      </div>
     </div>
   </div>
 </template>
@@ -58,10 +87,45 @@ export default {
 };
 </script>
 <style lang="scss">
+#future {
+  height: auto;
+  margin: auto;
+  text-align: left;
+  width: 69%;
+  font-size: 25px;
+  border-bottom: 1px solid;
+  margin-top: 110px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#list {
+  position: relative;
+  list-style-position: inside;
+  width: 59%;
+  text-align: left;
+  height: auto;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#bucket {
+  height: auto;
+  margin: auto;
+  text-align: left;
+  width: 55%;
+  font-size: 20px;
+
+  margin-bottom: 70px;
+
+  position: relative;
+}
+
 #table {
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
+
 #header {
   margin: auto;
   text-align: left;
@@ -76,8 +140,8 @@ export default {
 }
 
 #projects {
-  overflow: scroll;
   height: auto;
   width: 100vw;
+  margin-top: 280px;
 }
 </style>
