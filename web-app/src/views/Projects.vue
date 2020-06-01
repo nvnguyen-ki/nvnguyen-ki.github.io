@@ -20,7 +20,7 @@
       >
       </b-table>
       <div id="bucket-list">
-        <h5 id="future">future endeavors</h5>
+        <h5 id="future">future endeavors (2020)</h5>
         <h5 id="bucket" data-aos="fade-right">
           Around my freshman year of college, my main goal was to learn game
           developement. At the time I never really knew the world of UI/UX
@@ -30,20 +30,21 @@
         </h5>
         <section id="list" aria-labelledby="todos-label" data-aos="fade-right">
           <ul>
-            <li>
-              Create a portfolio website
+            <!--crossed out bullet point--->
+            <li style="text-decoration:line-through;">
+              Create a personal portfolio website.
             </li>
             <li>
-              Automate something with Python
+              Automate "Fill out online forms" with Python.
             </li>
             <li>
-              Create a database of something
+              Create an Interactive Data Visualizations of crime in SC.
             </li>
             <li>
-              Learn a new popular software
+              Custom create a mechanical keyboard.
             </li>
             <li>
-              Sleep
+              Teach myself Machine Learning/AI.
             </li>
           </ul>
         </section>
