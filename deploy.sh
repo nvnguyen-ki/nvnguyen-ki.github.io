@@ -8,6 +8,8 @@ cd web-app
 npm run build
 
 # navigate into the build output directory
+mv dist ..
+cd ..
 cd dist
 
 # if you are deploying to a custom domain
