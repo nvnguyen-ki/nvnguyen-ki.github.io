@@ -27,8 +27,7 @@
         <span style="color: rgb(197, 236, 175); margin: 0px;">
           UI/UX and frontend designing.
         </span>
-        Here, you'll be able to see some of my personal projects that I have
-        done or have been working on. Here, you'll be able to see some of my
+        Here, you'll be able to see some of my
         personal projects that I have done, have been working on, or plan to do.
       </h5>
     </div>

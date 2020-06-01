@@ -44,6 +44,9 @@
               Custom create a mechanical keyboard.
             </li>
             <li>
+              Create a dedicated web scraper.
+            </li>
+             <li>
               Teach myself Machine Learning/AI.
             </li>
           </ul>
