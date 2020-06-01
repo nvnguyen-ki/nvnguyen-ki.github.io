@@ -47,11 +47,23 @@
           get to know me more by emailing me.
         </p>
         <p style="font-size:15px; margin-top:10px;">
-          <span style="color:rgb(211, 90, 90); ">nguyentwotimes@gmail.com</span>
+          <span style="color:rgb(211, 90, 90); font-size:25px;"
+            >nguyentwotimes@gmail.com</span
+          >
         </p>
       </h1>
     </div>
     <div id="end"></div>
+    <!-- <div id="credits">
+      <img id="pic" src="./assets/bootstrap.svg" />
+      <img id="pic" src="./assets/vue.svg" />
+      <img id="pic" src="./assets/nodejs.svg" />
+      <img id="pic" src="./assets/npm.svg" />
+      <img id="pic" src="./assets/visual-studio-code.svg" />
+      <img id="pic" src="./assets/javascript.svg" />
+      <img id="pic" src="./assets/html-5.svg" />
+      <img id="pic" src="./assets/css-3.svg" />
+    </div> -->
   </div>
 </template>
 
@@ -94,6 +106,10 @@ export default {
 </script>
 
 <style lang="scss">
+#credits {
+  background: burlywood;
+}
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -148,7 +164,7 @@ html {
 #contact {
   word-wrap: break-word;
   border-top: 1px solid white;
-  height: 20vh;
+
   width: auto;
   position: relative;
 }
@@ -157,6 +173,13 @@ html {
   height: 30px;
   width: 30px;
 }
+
+#pic {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+}
+
 #github {
   height: 30px;
   width: 30px;
