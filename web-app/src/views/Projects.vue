@@ -46,7 +46,7 @@
             <li>
               Create a dedicated web scraper.
             </li>
-             <li>
+            <li>
               Teach myself Machine Learning/AI.
             </li>
           </ul>
@@ -69,7 +69,7 @@ export default {
           Skills: "Node, JS, HTML, CSS"
         },
         {
-          Title: "personal portfolio",
+          Title: "personal portfolio (forever in progress)",
           Description:
             "A portfolio created with UI/UX in mind to showcase my skills.",
           Skills: "Vue, Bootstrap, JS, HTML, CSS"
