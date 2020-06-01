@@ -7,7 +7,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "main": ".eslintrc.js",
   "dependencies": {
@@ -43,6 +44,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "license": "ISC",
+  "homepage":"hhtps://nvnguyen-ki.github.io/mywebsite",
   "repository": {
     "type": "git",
     "url": "Profile-Page"
