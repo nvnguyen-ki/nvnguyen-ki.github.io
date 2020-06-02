@@ -23,7 +23,13 @@
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#" style="font-weight: bold;">resume</b-nav-item>
+          <b-nav-item
+            href="https://drive.google.com/file/d/1wS7UpFtkAdDBqtzUhXsf-4_MFAquPdEW/view"
+            target="_blank"
+            style="font-weight: bold; "
+          >
+            Resume
+          </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
           <b-nav-item href="https://www.linkedin.com/in/nguyen-n-a6b807138/">
