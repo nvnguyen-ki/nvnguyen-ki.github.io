@@ -41,7 +41,7 @@
               Create an Interactive Data Visualizations of crime in SC.
             </li>
             <li>
-              Custom create a mechanical keyboard.
+              Custom build a mechanical keyboard.
             </li>
             <li>
               Create a dedicated web scraper.

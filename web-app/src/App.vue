@@ -24,7 +24,7 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-item
-            href="https://drive.google.com/file/d/1wS7UpFtkAdDBqtzUhXsf-4_MFAquPdEW/view"
+            href="https://drive.google.com/file/d/1wS7UpFtkAdDBqtzUhXsf-4_MFAquPdEW/view?usp=sharing"
             target="_blank"
             style="font-weight: bold; "
           >
@@ -60,16 +60,110 @@
       </h1>
     </div>
     <div id="end"></div>
-    <!-- <div id="credits">
-      <img id="pic" src="./assets/bootstrap.svg" />
-      <img id="pic" src="./assets/vue.svg" />
-      <img id="pic" src="./assets/nodejs.svg" />
-      <img id="pic" src="./assets/npm.svg" />
-      <img id="pic" src="./assets/visual-studio-code.svg" />
-      <img id="pic" src="./assets/javascript.svg" />
-      <img id="pic" src="./assets/html-5.svg" />
-      <img id="pic" src="./assets/css-3.svg" />
-    </div> -->
+    <footer>
+      <div id="credits" style="color: black; display">
+        <span id="copyright" style=" display: inline-block;"
+          >&copy; 2020 | designed by Nguyen Nguyen</span
+        >
+        <b-link
+          style="color: black; display: inline-block;"
+          v-b-modal="'my-modal'"
+          ><h2
+            id="link-text"
+            style=" font-size:15px; text-align:right; margin:0; padding:0;"
+          >
+            Credits
+          </h2></b-link
+        >
+
+        <b-modal id="my-modal" hide-footer>
+          <template v-slot:modal-title>
+            credits
+          </template>
+          <div class="text-center">
+            <p>
+              Main Tools:
+              <img
+                id="pic"
+                v-b-popover.hover.top="'Bootstrap'"
+                src="./assets/bootstrap.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'CSS-3'"
+                src="./assets/css-3.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'VUE'"
+                src="./assets/vue.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'HTML-5'"
+                src="./assets/html-5.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'NODEJS'"
+                src="./assets/nodejs.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'NPM'"
+                src="./assets/npm.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'JAVASCRIPT'"
+                src="./assets/javascript.svg"
+              />
+            </p>
+            <p>
+              Hosting:
+              <img
+                id="pic"
+                v-b-popover.hover.top="'Amazon-Web-Services'"
+                src="./assets/aws.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'GoDaddy'"
+                src="./assets/godaddy.svg"
+              />
+            </p>
+            <p>
+              Environment:
+              <img
+                id="pic"
+                v-b-popover.hover.top="'VS-Code'"
+                src="./assets/visual-studio-code.svg"
+              />
+              <img
+                id="pic"
+                v-b-popover.hover.top="'Ubuntu'"
+                src="./assets/ubuntu.svg"
+              />
+            </p>
+            <p>
+              Libraries:
+              <b-link href="https://github.com/michalsnik/aos">AOS</b-link>,
+              <b-link href="https://github.com/webnoobcodes/vuejs-typeeffect"
+                >typeEffect</b-link
+              >
+              (for text animation)
+            </p>
+          </div>
+          <b-button
+            class="mt-3"
+            size="sm"
+            block
+            @click="$bvModal.hide('my-modal')"
+            >Close Me</b-button
+          >
+        </b-modal>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -112,8 +206,17 @@ export default {
 </script>
 
 <style lang="scss">
+#copyright {
+  position: relative;
+}
+
+#link-text {
+  position: relative;
+  left: 50%;
+}
+
 #credits {
-  background: burlywood;
+  background: rgb(247, 244, 239);
 }
 
 #app {
@@ -181,8 +284,8 @@ html {
 }
 
 #pic {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   margin: 5px;
 }
 
