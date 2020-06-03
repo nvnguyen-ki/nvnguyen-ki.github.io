@@ -1,24 +1,16 @@
-# web-app
+# portfolio
 
-## Project setup
-```
-npm install
-```
+This project was created with bootstrapVue
 
-### Compiles and hot-reloads for development
-```
+How I test and deploy:
+
+in project directory I run
 npm run serve
-```
+to run the app in dev mode opening a localhost to view in browser and test.
 
-### Compiles and minifies for production
-```
+to deploy
 npm run build
-```
+after I build, I run a script to push the build to a branch called gh-pages.
 
-### Lints and fixes files
-```
-npm run lint
-```
+everytime gh-pages gets a new commit, aws amplify will automatically deploy a new page for the domain nguyensqrd.com
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
