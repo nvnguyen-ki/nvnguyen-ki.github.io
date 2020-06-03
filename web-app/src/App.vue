@@ -47,10 +47,10 @@
     <!--- projects.vue --->
     <Projects id="projects" />
     <div id="contact">
-      <h1 style="margin:20px;">
-        -contact me for any reason-
-        <p style="font-size:15px; margin-top:10px;">
-          get to know me more by emailing me.
+      <h1 style="margin:20px; font-size:15px;">
+        contact me for any reason
+        <p style=" margin-top:10px;">
+          && feel free to reach out
         </p>
         <p style="font-size:15px; margin-top:10px;">
           <span style="color:rgb(211, 90, 90); font-size:25px;"
@@ -147,10 +147,7 @@
             </p>
             <p>
               Libraries:
-              <b-link href="https://github.com/michalsnik/aos">AOS</b-link>,
-              <b-link href="https://github.com/webnoobcodes/vuejs-typeeffect"
-                >typeEffect</b-link
-              >
+              <b-link href="https://github.com/michalsnik/aos">AOS</b-link>
               (for text animation)
             </p>
             <p>

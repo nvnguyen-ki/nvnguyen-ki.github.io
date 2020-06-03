@@ -41,13 +41,13 @@
               Create an Interactive Data Visualizations of crime in SC.
             </li>
             <li>
-              Custom build a mechanical keyboard.
-            </li>
-            <li>
-              Create a dedicated web scraper.
+              Create a document scraper.
             </li>
             <li>
               Teach myself Machine Learning/AI.
+            </li>
+            <li>
+              Custom build a mechanical keyboard.
             </li>
           </ul>
         </section>
@@ -66,7 +66,7 @@ export default {
           Title: "de-stressfi",
           Description:
             "Website that relieves your stress with smooth lofi added onto a weather application along with other tools.",
-          Skills: "Node, JS, HTML, CSS"
+          Skills: "Node.JS, JS, HTML, CSS"
         },
         {
           Title: "personal portfolio (forever in progress)",
