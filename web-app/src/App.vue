@@ -153,6 +153,13 @@
               >
               (for text animation)
             </p>
+            <p>
+              Icons:
+              <b-link
+                href="https://www.flaticon.com/free-icon/jupiter_2909901?term=galaxy&page=1&position=47"
+                >jupiter icon by Icongeek26</b-link
+              >
+            </p>
           </div>
           <b-button
             class="mt-3"
