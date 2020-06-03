@@ -157,8 +157,9 @@
               Icons:
               <b-link
                 href="https://www.flaticon.com/free-icon/jupiter_2909901?term=galaxy&page=1&position=47"
-                >jupiter icon by Icongeek26</b-link
+                >jupiter icon</b-link
               >
+              by Icongeek26
             </p>
           </div>
           <b-button
