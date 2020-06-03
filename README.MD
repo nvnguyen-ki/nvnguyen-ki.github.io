@@ -1,2 +1,3 @@
 This is my portfolio website.
-[domain](https://nguyensqrd.com)
+
+[https://www.nguyensqrd.com/](https://nguyensqrd.com)
