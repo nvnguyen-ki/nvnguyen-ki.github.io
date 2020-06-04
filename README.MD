@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-## [domain](https://nguyensqrd.com)
+## [https://nguyensqrd.com](https://nguyensqrd.com)
 a personal portfolio to display some information about myself such as my skills and past/present projects.
 
 ## Motivation
@@ -18,5 +17,5 @@ I have been interested in UI/UX design and thought that creating a portfolio was
 clone -> cd web-app -> npm run serve (local:host) -> npm run build -> npm run deploy
 
 ## Credits
-(AOS)[https://github.com/michalsnik/aos]
+[AOS](https://github.com/michalsnik/aos)
 
