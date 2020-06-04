@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## [domain](https://nguyensqrd.com)
 a personal portfolio to display some information about myself such as my skills and past/present projects.
 
