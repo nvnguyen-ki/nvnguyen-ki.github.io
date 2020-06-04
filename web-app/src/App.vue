@@ -48,9 +48,9 @@
     <Projects id="projects" />
     <div id="contact">
       <h1 style="margin:20px; font-size:15px;">
-        contact me for any reason
+        feel free to reach out 
         <p style=" margin-top:10px;">
-          && feel free to reach out
+          && contact me for any reason
         </p>
         <p style="font-size:15px; margin-top:10px;">
           <span style="color:rgb(211, 90, 90); font-size:25px;"

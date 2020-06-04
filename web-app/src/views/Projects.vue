@@ -35,13 +35,13 @@
               Create a personal portfolio website.
             </li>
             <li>
-              Automate "Fill out online forms" with Python.
+              Automatically fill an application with Python.
             </li>
             <li>
               Create an Interactive Data Visualizations of crime in SC.
             </li>
             <li>
-              Create a document scraper.
+              Create a document/web scraper.
             </li>
             <li>
               Teach myself Machine Learning/AI.
