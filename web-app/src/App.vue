@@ -15,7 +15,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item href="#projects" style="font-weight: bold;"
-            >projects</b-nav-item
+            >projects & plans</b-nav-item
           >
           <b-nav-item href="#contact" style="font-weight: bold;"
             >contact</b-nav-item
@@ -47,8 +47,8 @@
     <!--- projects.vue --->
     <Projects id="projects" />
     <div id="contact">
-      <h1 style="margin:20px; font-size:15px;">
-        feel free to reach out 
+      <h1 style="margin:20px; font-size:15px; margin-top:30px;">
+        feel free to reach out
         <p style=" margin-top:10px;">
           && contact me for any reason
         </p>

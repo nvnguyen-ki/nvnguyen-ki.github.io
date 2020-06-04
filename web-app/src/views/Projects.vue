@@ -1,5 +1,5 @@
 <template>
-  <div id="projects">
+  <div id="projects" style="border-top:1px white solid;">
     <div id="table">
       <h1 id="header">
         notable projects
@@ -69,7 +69,13 @@ export default {
           Skills: "Node.JS, JS, HTML, CSS"
         },
         {
-          Title: "personal portfolio (forever in progress)",
+          Title: "@_Scraper (in-progress)",
+          Description:
+            "An application to scrape a pdf or a url website to find specific information such as emails or phone-numbers",
+          Skills: "Python"
+        },
+        {
+          Title: "personal portfolio (forever-in-progress)",
           Description:
             "A portfolio created with UI/UX in mind to showcase my skills.",
           Skills: "Vue, Bootstrap, JS, HTML, CSS"
@@ -77,13 +83,8 @@ export default {
         {
           Title: "library system",
           Description:
-            "An in-class team project to build a basic library system framework. eg. checking out/returning books, library members, book titles/author stored in JSON file.",
+            "An in-class team project to build a basic library system framework in the console. eg. checking out/returning books, library members, book titles/author stored in JSON file.",
           Skills: "Java, JSON"
-        },
-        {
-          Title: "...",
-          Description: "...",
-          Skills: "..."
         }
       ]
     };
@@ -110,7 +111,7 @@ export default {
   text-align: left;
   height: auto;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 #bucket {

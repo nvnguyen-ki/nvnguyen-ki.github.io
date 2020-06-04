@@ -91,8 +91,8 @@
   width: 77%;
   margin: auto;
   margin-top: 50px;
+  text-align: left;
 }
-
 #intro {
   font-size: 25px;
   margin-top: 50px;

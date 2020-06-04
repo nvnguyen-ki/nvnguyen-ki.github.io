@@ -12,6 +12,8 @@ I have been interested in UI/UX design and thought that creating a portfolio was
 - VueBootstrap
 - HTML
 - CSS
+- JS
+
 
 ## Installation && Tests
 clone -> cd web-app -> npm run serve (local:host) -> npm run build -> npm run deploy
