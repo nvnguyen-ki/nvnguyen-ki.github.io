@@ -7,29 +7,34 @@
     <h1 id="intro">
       <TypeEffect />
     </h1>
-    <h1 id="about">about me</h1>
-    <div class="image"></div>
-    <div class="about-content">
-      <h5 id="content">
-        I am currently a senior and CS major at
-        <span style="color: burlywood; margin: 0px;">
-          University of South Carolina,
-        </span>
-        Columbia. My main interest going into Computer Science has been
-        <span style="color: rgb(197, 236, 175); margin: 0px;">
-          game/software development,
-        </span>
-        but going into my senior year, I've become more interested in
-        <span style="color: rgb(197, 236, 175); margin: 0px;">
-          data science,
-        </span>
-        as well as
-        <span style="color: rgb(197, 236, 175); margin: 0px;">
-          UI/UX and frontend designing.
-        </span>
-        Here, you'll be able to see some of my personal projects that I have
-        done, have been working on, or plan to do.
-      </h5>
+    <div id="about-content">
+     
+      <div id="content">
+        <h5>
+          <h1 style="border-bottom:1px solid;">a little bit about me</h1>
+          I'm currently a senior and CS major at
+          <span style="color: burlywood; margin: 0px;">
+            University of South Carolina,
+          </span>
+          Columbia. My main interest going into Computer Science has been
+          <span style="color: rgb(197, 236, 175); margin: 0px;">
+            game/software development,
+          </span>
+          but going into my senior year, I've become more interested in
+          <span style="color: rgb(197, 236, 175); margin: 0px;">
+            data science,
+          </span>
+          as well as
+          <span style="color: rgb(197, 236, 175); margin: 0px;">
+            UI/UX and frontend designing.
+          </span>
+          Here, you'll be able to see some of my personal projects that I have
+          done, been working on, or plan to do.
+        </h5>
+      </div>
+       <div class="image">
+        <img src="../assets/pro_pic.png" width="150"/>
+      </div>
     </div>
   </div>
 </template>
@@ -80,39 +85,63 @@
 */
 // margin:auto will center the div
 
-#about {
-  margin-top: 50px;
-  position: relative;
-  font-size: 20px;
-  margin-bottom: 50px;
+
+
+
+
+
+#about-content {
+  display: flex;
+  margin:auto;
+  width:70%;
+  position: relative; 
+}
+.image {  
+  margin:auto;
 }
 
 #content {
-  width: 77%;
-  margin: auto;
-  margin-top: 50px;
+  width: 85%;
   text-align: left;
+  position: relative;
+  margin-top:25px;
 }
+
+
+
 #intro {
   font-size: 25px;
   margin-top: 50px;
   background-position: center center;
+  margin-bottom: 150px;
+}
+// responsiveness for mobile
+@media screen and (max-width : 1250px) {
+  #about-content {
+    display:inline;
+    position: relative; 
+  }
+ 
+ .image {
+   margin-top:100px;
+   margin-bottom: 0px;
+ }
+
+  #content {
+    margin:auto;
+    width: 70%;
+    text-align: left;
+    position: relative;
+  }
+
+  #projects {
+    margin-top:20px;
+  }
+
+
 }
 
-.image {
-  position: relative;
-  margin: auto;
-  background-repeat: no-repeat;
-  background-image: url("../assets/pro_pic.png");
-  height: 150px;
-  width: 150px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 50%;
-}
+
 </style>
 
 <script>

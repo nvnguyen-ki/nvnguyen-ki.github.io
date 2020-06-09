@@ -38,10 +38,16 @@
           </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav>
-          <b-nav-item href="https://www.linkedin.com/in/nguyen-n-a6b807138/">
+          <b-nav-item
+            href="https://www.linkedin.com/in/nguyen-n-a6b807138/"
+            target="_blank"
+          >
             <img id="linkedin" src="./assets/linkedin_1.png" />
           </b-nav-item>
-          <b-nav-item href="https://github.com/nvnguyen-ki?tab=repositories">
+          <b-nav-item
+            href="https://github.com/nvnguyen-ki?tab=repositories"
+            target="_blank"
+          >
             <img id="github" src="./assets/github_2.webp" />
           </b-nav-item>
         </b-navbar-nav>
@@ -154,13 +160,16 @@
             </p>
             <p>
               Libraries:
-              <b-link href="https://github.com/michalsnik/aos">AOS</b-link>
+              <b-link href="https://github.com/michalsnik/aos" target="_blank"
+                >AOS</b-link
+              >
               (for text animation)
             </p>
             <p>
               Icons:
               <b-link
                 href="https://www.flaticon.com/free-icon/jupiter_2909901?term=galaxy&page=1&position=47"
+                target="_blank"
                 >jupiter icon</b-link
               >
               by Icongeek26

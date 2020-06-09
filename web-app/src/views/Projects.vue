@@ -13,7 +13,7 @@
         <p>Languguages and technologies used: Node.JS, JS, HTML, CSS.</p>
 
         <div class="github-b">
-          <a href="https://github.com/nvnguyen-ki/de-stressfi" target="_blank">
+          <a id="hover_on_git" href="https://github.com/nvnguyen-ki/de-stressfi" target="_blank">
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
@@ -30,7 +30,7 @@
         <p>Languguages and technologies used: Python</p>
 
         <div class="github-b">
-          <a href="https://github.com/nvnguyen-ki/-_Scraper" target="_blank">
+          <a id="hover_on_git" href="https://github.com/nvnguyen-ki/-_Scraper" target="_blank">
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
@@ -44,7 +44,7 @@
         <p>Languguages and technologies used: Vue, Bootstrap, JS, HTML, CSS</p>
 
         <div class="github-b">
-          <a
+          <a id="hover_on_git"
             href="https://github.com/nvnguyen-ki/nvnguyen-ki.github.io"
             target="_blank"
           >
@@ -68,7 +68,7 @@
         </p>
 
         <div class="github-b">
-          <a href="https://github.com/WenLag/book-searcher" target="_blank">
+          <a id="hover_on_git" href="https://github.com/WenLag/book-searcher" target="_blank">
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
@@ -183,7 +183,7 @@ a:link {
 }
 
 .github-b:hover,
-a:hover {
+#hover_on_git:hover {
   background: rgb(197, 158, 158);
   color: aliceblue;
 }
