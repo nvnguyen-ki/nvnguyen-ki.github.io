@@ -12,16 +12,14 @@
         </p>
         <p>Languguages and technologies used: Node.JS, JS, HTML, CSS.</p>
 
-       
-          <div class="github-b">
-             <a href="https://github.com/nvnguyen-ki/de-stressfi" target="_blank">
+        <div class="github-b">
+          <a href="https://github.com/nvnguyen-ki/de-stressfi" target="_blank">
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
             </div>
-            </a>
-          </div>
-        
+          </a>
+        </div>
       </div>
       <div class="projects-info" data-aos="fade-right">
         <h2>@_scraper (in-progress)</h2>
@@ -30,34 +28,32 @@
           information such as emails or phone-numbers
         </p>
         <p>Languguages and technologies used: Python</p>
-        
-          <div class="github-b">
-            <a href="https://github.com/nvnguyen-ki/-_Scraper" target="_blank">
+
+        <div class="github-b">
+          <a href="https://github.com/nvnguyen-ki/-_Scraper" target="_blank">
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
             </div>
-             </a>
-          </div>
-       
+          </a>
+        </div>
       </div>
       <div class="projects-info" data-aos="fade-right">
         <h2>personal portfolio (forever-in-progress)</h2>
         <p>A portfolio created with UI/UX in mind to showcase my skills.</p>
         <p>Languguages and technologies used: Vue, Bootstrap, JS, HTML, CSS</p>
-        
-          <div class="github-b">
-            <a
-          href="https://github.com/nvnguyen-ki/nvnguyen-ki.github.io"
-          target="_blank"
-        >
+
+        <div class="github-b">
+          <a
+            href="https://github.com/nvnguyen-ki/nvnguyen-ki.github.io"
+            target="_blank"
+          >
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
             </div>
-            </a>
-          </div>
-        
+          </a>
+        </div>
       </div>
       <div class="projects-info" data-aos="fade-right">
         <h2>library system</h2>
@@ -70,16 +66,15 @@
           Languguages and technologies used: Java, JSON. (This was done on my
           school github account)
         </p>
-        
-          <div class="github-b">
-            <a href="https://github.com/WenLag/book-searcher" target="_blank">
+
+        <div class="github-b">
+          <a href="https://github.com/WenLag/book-searcher" target="_blank">
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
             </div>
-            </a>
-          </div>
-        
+          </a>
+        </div>
       </div>
       <!-- <b-table
         table-variant="dark"
@@ -166,14 +161,12 @@
 // };
 </script>
 <style lang="scss">
-
 a {
   color: aliceblue;
 }
 
 a:link {
   text-decoration: none;
-  
 }
 
 .github-b {
@@ -189,7 +182,8 @@ a:link {
   margin-top: 15px;
 }
 
-.github-b:hover,a:hover {
+.github-b:hover,
+a:hover {
   background: rgb(197, 158, 158);
   color: aliceblue;
 }
