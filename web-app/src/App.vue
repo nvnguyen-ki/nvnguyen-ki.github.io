@@ -4,7 +4,13 @@
     id="app"
   >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <b-navbar id="nav" toggleable="lg" fixed="top" type="light">
+    <b-navbar
+      id="nav"
+      toggleable="lg"
+      fixed="top"
+      type="light"
+      style="font-size:17px;"
+    >
       <b-navbar-nav>
         <!---------using href and smooth scrollings instead of routers--------->
         <b-nav-item id="home_animation" href="#app" style="font-weight: bold;"
@@ -50,7 +56,8 @@
       <h1 style="margin:20px; font-size:15px; margin-top:30px;">
         feel free to reach out
         <p style=" margin-top:10px;">
-          && contact me for any reason
+          && <span style="color: rgb(125, 115, 184)"> contact </span> me for any
+          reason
         </p>
         <p style="font-size:15px; margin-top:10px;">
           <span style="color:rgb(211, 90, 90); font-size:25px;"
@@ -95,7 +102,7 @@
               />
               <img
                 id="pic"
-                v-b-popover.hover.top="'VUE'"
+                v-b-popover.hover.top="'Vue'"
                 src="./assets/vue.svg"
               />
               <img
@@ -105,17 +112,17 @@
               />
               <img
                 id="pic"
-                v-b-popover.hover.top="'NODEJS'"
+                v-b-popover.hover.top="'Node.js'"
                 src="./assets/nodejs.svg"
               />
               <img
                 id="pic"
-                v-b-popover.hover.top="'NPM'"
+                v-b-popover.hover.top="'Npm'"
                 src="./assets/npm.svg"
               />
               <img
                 id="pic"
-                v-b-popover.hover.top="'JAVASCRIPT'"
+                v-b-popover.hover.top="'Javascript'"
                 src="./assets/javascript.svg"
               />
             </p>
@@ -221,13 +228,15 @@ export default {
 }
 
 #credits {
-  background: rgb(247, 244, 239);
+  background: rgb(240, 239, 247);
 }
 
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-position: center;
+
   background-color: rgb(40, 37, 41);
   color: rgb(236, 234, 228);
   position: relative;
@@ -278,7 +287,6 @@ html {
 #contact {
   word-wrap: break-word;
   border-top: 1px solid white;
-
   width: auto;
   position: relative;
 }
