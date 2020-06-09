@@ -99,7 +99,7 @@
 
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
   color: white;
-  box-shadow: 10px 10px rgb(64, 65, 63);
+  box-shadow: 10px 10px rgb(161, 161, 161);
   transition: all 0.4s ease;
 }
 
@@ -131,6 +131,7 @@
     margin-top: 100px;
     border: none;
     margin-bottom: 0px;
+    box-shadow: none;
   }
 
   #content {
