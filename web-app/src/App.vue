@@ -59,6 +59,7 @@
     <!--- projects.vue --->
     <Projects id="projects" />
     <div id="contact">
+      <h id="header" style="color:rgb(150, 133, 133);"> CONTACT </h>
       <h1 style="margin:20px; font-size:15px; margin-top:30px;">
         feel free to reach out
         <p style=" margin-top:10px;">

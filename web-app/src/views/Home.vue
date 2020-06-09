@@ -10,9 +10,13 @@
     <div id="about-content">
       <div id="content">
         <h5>
-          <h1 style="border-bottom:1px solid;">a little bit about me</h1>
+          <h1
+            style="border-bottom:1px solid; font-size:28px; color: rgb(212, 160, 130); border-color:white;"
+          >
+            a little bit about me
+          </h1>
           I'm currently a senior and CS major at
-          <span style="color: burlywood; margin: 0px;">
+          <span style="color: rgb(197, 236, 175); margin: 0px;">
             University of South Carolina,
           </span>
           Columbia. My main interest going into Computer Science has been
@@ -31,7 +35,7 @@
           done, been working on, or plan to do.
         </h5>
       </div>
-      <div class="image">
+      <div class="image" v-b-popover.hover.top="'Me before 2020'">
         <img src="../assets/pro_pic.png" width="150" />
       </div>
     </div>
@@ -92,6 +96,15 @@
 }
 .image {
   margin: auto;
+
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+  color: white;
+  box-shadow: 10px 10px rgba(168, 255, 222, 0.801);
+  transition: all 0.4s ease;
+}
+
+.image:hover {
+  opacity: 0.9;
 }
 
 #content {
@@ -116,6 +129,7 @@
 
   .image {
     margin-top: 100px;
+    border: none;
     margin-bottom: 0px;
   }
 

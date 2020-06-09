@@ -79,9 +79,9 @@
       <div class="projects-info" data-aos="fade-right">
         <h2>library system</h2>
         <p>
-          An in-class team project to build a basic library system framework in
-          the console. eg. checking out/returning books, library members, book
-          titles/author stored in JSON file.
+          A group project given by my professor aiming to build a basic library
+          system framework in the eclipse console while practicing object
+          oriented programming.
         </p>
         <p>
           <span style="color:rgb(238, 252, 177);"
@@ -187,11 +187,11 @@
 // };
 </script>
 <style lang="scss">
-a {
+#hover_on_git {
   color: aliceblue;
 }
 
-a:link {
+#hover_on_git:link {
   text-decoration: none;
 }
 
