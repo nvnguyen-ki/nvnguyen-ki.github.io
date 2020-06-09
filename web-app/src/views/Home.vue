@@ -99,7 +99,7 @@
 
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
   color: white;
-  box-shadow: 10px 10px rgb(197, 236, 175);
+  box-shadow: 10px 10px rgb(64, 65, 63);
   transition: all 0.4s ease;
 }
 
