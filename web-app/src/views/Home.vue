@@ -8,7 +8,6 @@
       <TypeEffect />
     </h1>
     <div id="about-content">
-     
       <div id="content">
         <h5>
           <h1 style="border-bottom:1px solid;">a little bit about me</h1>
@@ -32,8 +31,8 @@
           done, been working on, or plan to do.
         </h5>
       </div>
-       <div class="image">
-        <img src="../assets/pro_pic.png" width="150"/>
+      <div class="image">
+        <img src="../assets/pro_pic.png" width="150" />
       </div>
     </div>
   </div>
@@ -85,29 +84,22 @@
 */
 // margin:auto will center the div
 
-
-
-
-
-
 #about-content {
   display: flex;
-  margin:auto;
-  width:70%;
-  position: relative; 
+  margin: auto;
+  width: 70%;
+  position: relative;
 }
-.image {  
-  margin:auto;
+.image {
+  margin: auto;
 }
 
 #content {
   width: 85%;
   text-align: left;
   position: relative;
-  margin-top:25px;
+  margin-top: 25px;
 }
-
-
 
 #intro {
   font-size: 25px;
@@ -116,32 +108,28 @@
   margin-bottom: 150px;
 }
 // responsiveness for mobile
-@media screen and (max-width : 1250px) {
+@media screen and (max-width: 1250px) {
   #about-content {
-    display:inline;
-    position: relative; 
+    display: inline;
+    position: relative;
   }
- 
- .image {
-   margin-top:100px;
-   margin-bottom: 0px;
- }
+
+  .image {
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
 
   #content {
-    margin:auto;
+    margin: auto;
     width: 70%;
     text-align: left;
     position: relative;
   }
 
   #projects {
-    margin-top:20px;
+    margin-top: 20px;
   }
-
-
 }
-
-
 </style>
 
 <script>

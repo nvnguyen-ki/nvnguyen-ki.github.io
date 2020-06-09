@@ -10,10 +10,18 @@
           Website that relieves your stress with smooth lofi added onto a
           weather application along with other tools.
         </p>
-        <p>Languguages and technologies used: Node.JS, JS, HTML, CSS.</p>
+        <p>
+          <span style="color:rgb(238, 252, 177);"
+            >Languguages and technologies used</span
+          >: Node.JS, JS, HTML, CSS.
+        </p>
 
         <div class="github-b">
-          <a id="hover_on_git" href="https://github.com/nvnguyen-ki/de-stressfi" target="_blank">
+          <a
+            id="hover_on_git"
+            href="https://github.com/nvnguyen-ki/de-stressfi"
+            target="_blank"
+          >
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
@@ -27,10 +35,18 @@
           An application to scrape a pdf or a url website to find specific
           information such as emails or phone-numbers
         </p>
-        <p>Languguages and technologies used: Python</p>
+        <p>
+          <span style="color:rgb(238, 252, 177);"
+            >Languguages and technologies used</span
+          >: Python
+        </p>
 
         <div class="github-b">
-          <a id="hover_on_git" href="https://github.com/nvnguyen-ki/-_Scraper" target="_blank">
+          <a
+            id="hover_on_git"
+            href="https://github.com/nvnguyen-ki/-_Scraper"
+            target="_blank"
+          >
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
@@ -41,10 +57,15 @@
       <div class="projects-info" data-aos="fade-right">
         <h2>personal portfolio (forever-in-progress)</h2>
         <p>A portfolio created with UI/UX in mind to showcase my skills.</p>
-        <p>Languguages and technologies used: Vue, Bootstrap, JS, HTML, CSS</p>
+        <p>
+          <span style="color:rgb(238, 252, 177);"
+            >Languguages and technologies used</span
+          >: Vue, Bootstrap, JS, HTML, CSS
+        </p>
 
         <div class="github-b">
-          <a id="hover_on_git"
+          <a
+            id="hover_on_git"
             href="https://github.com/nvnguyen-ki/nvnguyen-ki.github.io"
             target="_blank"
           >
@@ -63,12 +84,17 @@
           titles/author stored in JSON file.
         </p>
         <p>
-          Languguages and technologies used: Java, JSON. (This was done on my
-          school github account)
+          <span style="color:rgb(238, 252, 177);"
+            >Languguages and technologies used</span
+          >: Java, JSON. (This was done on my school github account)
         </p>
 
         <div class="github-b">
-          <a id="hover_on_git" href="https://github.com/WenLag/book-searcher" target="_blank">
+          <a
+            id="hover_on_git"
+            href="https://github.com/WenLag/book-searcher"
+            target="_blank"
+          >
             <div>
               check on github
               <img src="../assets/github.svg" width="22" alt="Github" />
@@ -185,7 +211,7 @@ a:link {
 .github-b:hover,
 #hover_on_git:hover {
   background: rgb(197, 158, 158);
-  color: aliceblue;
+  color: rgb(252, 255, 240);
 }
 
 .projects-info {
