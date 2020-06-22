@@ -137,8 +137,8 @@
               Hosting:
               <img
                 id="pic"
-                v-b-popover.hover.top="'Github'"
-                src="./assets/github_2.webp"
+                v-b-popover.hover.top="'Netifly'"
+                src="./assets/netifly.png"
               />
               <img
                 id="pic"
