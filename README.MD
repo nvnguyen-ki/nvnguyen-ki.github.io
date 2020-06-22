@@ -9,14 +9,20 @@ I have been interested in UI/UX design and thought that creating a portfolio was
 ## Tech/framework used
 
 <b>Built with</b>
-- VueBootstrap
+- Vue
+- Bootstrap
 - HTML
 - CSS
 - JS
 
 
 ## Installation && Tests
-clone -> cd web-app -> npm run serve (local:host) -> npm run build -> npm run deploy
+1. clone 
+2. cd web-app 
+3. npm install
+4. npm run serve (local-host testing)
+5. npm run build 
+6. npm run deploy
 
 ## Credits
 [AOS](https://github.com/michalsnik/aos)
