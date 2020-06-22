@@ -38,7 +38,7 @@
         <p>
           <span style="color:rgb(238, 252, 177);"
             >Languguages and technologies used</span
-          >: Python
+          >: Vue.js, Express.js, HTML, CSS, JS
         </p>
 
         <div class="github-b">
@@ -130,7 +130,7 @@
               Create a personal portfolio website.
             </li>
             <li>
-              Automatically fill an application with Python.
+              Automatically fill blanks with your information in an application.
             </li>
             <li>
               Create an Interactive Data Visualizations of crime in SC.

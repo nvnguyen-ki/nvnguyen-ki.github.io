@@ -137,8 +137,8 @@
               Hosting:
               <img
                 id="pic"
-                v-b-popover.hover.top="'Amazon-Web-Services'"
-                src="./assets/aws.svg"
+                v-b-popover.hover.top="'Github'"
+                src="./assets/github_2.webp"
               />
               <img
                 id="pic"
