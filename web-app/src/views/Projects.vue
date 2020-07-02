@@ -5,35 +5,10 @@
         notable projects
       </h1>
       <div class="projects-info" data-aos="fade-right">
-        <h2>de-stressfi</h2>
+        <h2>Covid-19 Unload (in-progress)</h2>
         <p>
-          Website that relieves your stress with smooth lofi added onto a
-          weather application along with other tools.
-        </p>
-        <p>
-          <span style="color:rgb(238, 252, 177);"
-            >Languguages and technologies used</span
-          >: Node.JS, JS, HTML, CSS.
-        </p>
-
-        <div class="github-b">
-          <a
-            id="hover_on_git"
-            href="https://github.com/nvnguyen-ki/de-stressfi"
-            target="_blank"
-          >
-            <div>
-              check on github
-              <img src="../assets/github.svg" width="22" alt="Github" />
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="projects-info" data-aos="fade-right">
-        <h2>@_scraper (in-progress)</h2>
-        <p>
-          An application to scrape a pdf or a url website to find specific
-          information such as emails or phone-numbers
+          An application to showing updates of covid-19 cases world-wide, but
+          more specifically within the USA.
         </p>
         <p>
           <span style="color:rgb(238, 252, 177);"
@@ -44,7 +19,7 @@
         <div class="github-b">
           <a
             id="hover_on_git"
-            href="https://github.com/nvnguyen-ki/-_Scraper"
+            href="https://github.com/nvnguyen-ki/Covid_19_app"
             target="_blank"
           >
             <div>
@@ -67,6 +42,31 @@
           <a
             id="hover_on_git"
             href="https://github.com/nvnguyen-ki/nvnguyen-ki.github.io"
+            target="_blank"
+          >
+            <div>
+              check on github
+              <img src="../assets/github.svg" width="22" alt="Github" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="projects-info" data-aos="fade-right">
+        <h2>de-stressfi</h2>
+        <p>
+          Website that relieves your stress with smooth lofi added onto a
+          weather application along with other tools.
+        </p>
+        <p>
+          <span style="color:rgb(238, 252, 177);"
+            >Languguages and technologies used</span
+          >: Node.JS, JS, HTML, CSS.
+        </p>
+
+        <div class="github-b">
+          <a
+            id="hover_on_git"
+            href="https://github.com/nvnguyen-ki/de-stressfi"
             target="_blank"
           >
             <div>
@@ -130,13 +130,13 @@
               Create a personal portfolio website.
             </li>
             <li>
-              Automatically fill blanks with your information in an application.
+              Create a website using both Node.js and Vue.
             </li>
             <li>
               Create an Interactive Data Visualizations of crime in SC.
             </li>
             <li>
-              Create a document/web scraper.
+              Automatically fill blanks with your information in an application.
             </li>
             <li>
               Teach myself Machine Learning/AI.
