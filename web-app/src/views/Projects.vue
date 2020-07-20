@@ -5,7 +5,7 @@
         notable projects
       </h1>
       <div class="projects-info" data-aos="fade-right">
-        <h2>Covid-19 Unload (in-progress)</h2>
+        <h2>Covid-19 Unload</h2>
         <p>
           An application to showing updates of covid-19 cases world-wide, but
           more specifically within the USA.
@@ -129,11 +129,8 @@
             <li style="text-decoration:line-through;">
               Create a personal portfolio website.
             </li>
-            <li>
-              Create a website using both Node.js and Vue.
-            </li>
-            <li>
-              Create an Interactive Data Visualizations of crime in SC.
+            <li style="text-decoration:line-through;">
+              Create a website using both Node.js and Vue. (covid-19 app)
             </li>
             <li>
               Automatically fill blanks with your information in an application.
