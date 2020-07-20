@@ -29,7 +29,7 @@
           </span>
           as well as
           <span style="color: rgb(197, 236, 175); margin: 0px;">
-            UI/UX and frontend designing.
+            full-stack development.
           </span>
           Here, you'll be able to see some of my personal projects that I have
           done, been working on, or plan to do.
