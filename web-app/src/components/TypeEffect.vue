@@ -18,7 +18,7 @@ export default {
       typeArray: [
         "Nguyen Nguyen.",
         "a software developer.",
-        "a data science enthusiast.",
+        "a full-stack developer enthusiast.",
         "a coder."
       ],
       typingSpeed: 80,

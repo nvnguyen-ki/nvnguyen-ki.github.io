@@ -25,11 +25,11 @@
           </span>
           but going into my senior year, I've become more interested in
           <span style="color: rgb(197, 236, 175); margin: 0px;">
-            data science,
+            full-stack development,
           </span>
           as well as
           <span style="color: rgb(197, 236, 175); margin: 0px;">
-            full-stack development.
+            data science.
           </span>
           Here, you'll be able to see some of my personal projects that I have
           done, been working on, or plan to do.

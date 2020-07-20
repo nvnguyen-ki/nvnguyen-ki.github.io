@@ -118,10 +118,10 @@
         <h5 id="future">future endeavors (2020)</h5>
         <h5 id="bucket" data-aos="fade-right">
           Around my freshman year of college, my main goal was to learn game
-          developement. At the time I never really knew the world of UI/UX
-          design, automation, or data science. 3 years later... in my final
-          year, with a variety of new gained knowledge, I've decided to create
-          bucket list of projects to do before my college days end.
+          developement. At the time I never really knew the world of web
+          developement, automation, or data science. 3 years later... in my
+          final year, with a variety of new gained knowledge, I've decided to
+          create bucket list of projects to do before my college days end.
         </h5>
         <section id="list" aria-labelledby="todos-label" data-aos="fade-right">
           <ul>
@@ -131,6 +131,9 @@
             </li>
             <li style="text-decoration:line-through;">
               Create a website using both Node.js and Vue. (covid-19 app)
+            </li>
+            <li>
+              Design and build a website that includes a MYSQL database.
             </li>
             <li>
               Automatically fill blanks with your information in an application.
