@@ -19,7 +19,7 @@
           <span style="color: rgb(197, 236, 175); margin: 0px;">
             University of South Carolina, Columbia.
           </span>
-           My main interest going into Computer Science has been
+          My main interest going into Computer Science has been
           <span style="color: rgb(197, 236, 175); margin: 0px;">
             game/software development,
           </span>

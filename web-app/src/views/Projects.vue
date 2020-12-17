@@ -13,7 +13,7 @@
         <p>
           <span style="color:rgb(238, 252, 177);"
             >Languguages and technologies used</span
-          >: Vue.js, Express.js, HTML, CSS, JS
+          >: Vue, Node, HTML, CSS, JS
         </p>
 
         <div class="github-b">
@@ -31,7 +31,7 @@
       </div>
       <div class="projects-info" data-aos="fade-right">
         <h2>Personal portfolio (forever-in-progress)</h2>
-        <p>A portfolio created with UI/UX in mind to showcase my skills.</p>
+        <p>This portfolio page!</p>
         <p>
           <span style="color:rgb(238, 252, 177);"
             >Languguages and technologies used</span
@@ -52,6 +52,32 @@
         </div>
       </div>
       <div class="projects-info" data-aos="fade-right">
+        <h2>Lost In Space</h2>
+        <p>
+          A 3D environment based game where you are an alien lost in space and
+          your goal is to explore the terrain and find the parts to your
+          spaceship.
+        </p>
+        <p>
+          <span style="color:rgb(238, 252, 177);"
+            >Languguages and technologies used</span
+          >: Unity, C#, Blender
+        </p>
+
+        <div class="github-b">
+          <a
+            id="hover_on_git"
+            href="https://github.com/nvnguyen-ki/Lost_in_Space"
+            target="_blank"
+          >
+            <div>
+              check on github
+              <img src="../assets/github.svg" width="22" alt="Github" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="projects-info" data-aos="fade-right">
         <h2>De-stressfi</h2>
         <p>
           Website that relieves your stress with smooth lofi added onto a
@@ -60,7 +86,7 @@
         <p>
           <span style="color:rgb(238, 252, 177);"
             >Languguages and technologies used</span
-          >: Node.JS, JS, HTML, CSS.
+          >: Node, JavaScript, HTML, CSS.
         </p>
 
         <div class="github-b">
@@ -117,9 +143,11 @@
       <div id="bucket-list">
         <h5 id="future">future endeavors (2020)</h5>
         <h5 id="bucket" data-aos="fade-right">
-          With most of my interest revolving around web-development, 
-          some of my future goals will consist of learning new technologies related to web development.
-          Other plans listed will be hobbies and side-interest projects such as building a custom mechanical keyboard and learning game development.
+          With most of my interest revolving around web-development, some of my
+          future goals will consist of learning new technologies related to web
+          development. Other plans listed will be hobbies and side-interest
+          projects such as building a custom mechanical keyboard and learning
+          game development.
         </h5>
         <section id="list" aria-labelledby="todos-label" data-aos="fade-right">
           <ul>
@@ -137,7 +165,8 @@
               Create a 3D game with Unity.
             </li>
             <li>
-              Design and build a personal website for a game that includes a MYSQL database.
+              Design and build a personal website for a game that includes a
+              MYSQL database.
             </li>
           </ul>
         </section>
