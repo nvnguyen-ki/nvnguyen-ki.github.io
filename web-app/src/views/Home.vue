@@ -13,13 +13,13 @@
           <h1
             style="border-bottom:1px solid; font-size:28px; color: rgb(212, 160, 130); border-color:white;"
           >
-            a little bit about me
+            A little bit about me
           </h1>
           I'm currently a senior and CS major at
           <span style="color: rgb(197, 236, 175); margin: 0px;">
-            University of South Carolina,
+            University of South Carolina, Columbia.
           </span>
-          Columbia. My main interest going into Computer Science has been
+           My main interest going into Computer Science has been
           <span style="color: rgb(197, 236, 175); margin: 0px;">
             game/software development,
           </span>

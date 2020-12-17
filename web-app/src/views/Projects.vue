@@ -2,7 +2,7 @@
   <div id="projects" style="border-top:1px transparent solid;">
     <div id="table">
       <h1 id="header">
-        notable projects
+        Notable projects
       </h1>
       <div class="projects-info" data-aos="fade-right">
         <h2>Covid-19 Unload</h2>
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="projects-info" data-aos="fade-right">
-        <h2>personal portfolio (forever-in-progress)</h2>
+        <h2>Personal portfolio (forever-in-progress)</h2>
         <p>A portfolio created with UI/UX in mind to showcase my skills.</p>
         <p>
           <span style="color:rgb(238, 252, 177);"
@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="projects-info" data-aos="fade-right">
-        <h2>de-stressfi</h2>
+        <h2>De-stressfi</h2>
         <p>
           Website that relieves your stress with smooth lofi added onto a
           weather application along with other tools.
@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="projects-info" data-aos="fade-right">
-        <h2>library system</h2>
+        <h2>Library system</h2>
         <p>
           A group project given by my professor aiming to build a basic library
           system framework in the eclipse console while practicing object
@@ -117,11 +117,9 @@
       <div id="bucket-list">
         <h5 id="future">future endeavors (2020)</h5>
         <h5 id="bucket" data-aos="fade-right">
-          Around my freshman year of college, my main goal was to learn game
-          developement. At the time I never really knew the world of web
-          developement, automation, or data science. 3 years later... in my
-          final year, with a variety of new gained knowledge, I've decided to
-          create bucket list of projects to do before my college days end.
+          With most of my interest revolving around web-development, 
+          some of my future goals will consist of learning new technologies related to web development.
+          Other plans listed will be hobbies and side-interest projects such as building a custom mechanical keyboard and learning game development.
         </h5>
         <section id="list" aria-labelledby="todos-label" data-aos="fade-right">
           <ul>
@@ -132,17 +130,14 @@
             <li style="text-decoration:line-through;">
               Create a website using both Node.js and Vue. (covid-19 app)
             </li>
-            <li>
-              Design and build a website that includes a MYSQL database.
-            </li>
-            <li>
-              Automatically fill blanks with your information in an application.
-            </li>
-            <li>
-              Teach myself Machine Learning/AI.
-            </li>
-            <li>
+            <li style="text-decoration:line-through;">
               Custom build a mechanical keyboard.
+            </li>
+            <li style="text-decoration:line-through;">
+              Create a 3D game with Unity.
+            </li>
+            <li>
+              Design and build a personal website for a game that includes a MYSQL database.
             </li>
           </ul>
         </section>
