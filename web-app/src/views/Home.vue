@@ -35,9 +35,6 @@
           done, been working on, or plan to do.
         </h5>
       </div>
-      <div class="image" v-b-popover.hover.top="'Me before 2020'">
-        <img src="../assets/pro_pic.png" width="150" />
-      </div>
     </div>
   </div>
 </template>
