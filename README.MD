@@ -1,4 +1,5 @@
-Personal Portfolio to display some information about myself such as my skills and past/present projects.
+## Personal Portfolio 
+Portfolio to display some information about myself such as my skills and past/present projects.
 
 ## Motivation
 I have been interested in UI/UX design and thought that creating a portfolio was a good way to learn the basics of designing a web-page.
