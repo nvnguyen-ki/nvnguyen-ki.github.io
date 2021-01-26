@@ -77,7 +77,7 @@
     <footer>
       <div id="credits" style="color: black; display">
         <span id="copyright" style=" display: inline-block;"
-          >&copy; 2020 | designed by Nguyen Nguyen</span
+          >&copy; 2021 | designed by Nguyen Nguyen</span
         >
         <b-link
           style="color: black; display: inline-block;"
