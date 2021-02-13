@@ -141,7 +141,7 @@
       >
       </b-table> -->
       <div id="bucket-list">
-        <h5 id="future">future endeavors (2020)</h5>
+        <h5 id="future">future endeavors</h5>
         <h5 id="bucket" data-aos="fade-right">
           With most of my interest revolving around web-development, some of my
           future goals will consist of learning new technologies related to web
@@ -165,8 +165,7 @@
               Create a 3D game with Unity.
             </li>
             <li>
-              Design and build a personal website for a game that includes a
-              MYSQL database.
+              Develop the mobile app idea that I have and deploy it.
             </li>
           </ul>
         </section>
@@ -265,7 +264,7 @@
   height: auto;
   margin: auto;
   text-align: left;
-  width: 69%;
+  width: 70%;
   font-size: 35px;
   border-bottom: 1px solid;
   margin-top: 110px;

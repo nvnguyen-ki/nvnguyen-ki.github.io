@@ -30,7 +30,7 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-item
-            href="https://drive.google.com/file/d/1NSqNqF5OxXFHokfBU3bDkbYjNwlaPkUG/view?usp=sharing"
+            href="https://drive.google.com/file/d/https://drive.google.com/file/d/1SdYgEYV5bdkvg2QfESuJhkfGGckjq4Mk/view?usp=sharing"
             target="_blank"
             style="font-weight: bold; "
           >

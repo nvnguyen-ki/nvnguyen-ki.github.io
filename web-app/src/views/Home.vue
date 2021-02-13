@@ -15,9 +15,9 @@
           >
             A little bit about me
           </h1>
-          I'm currently a senior and CS major at
+          I'm currently a senior at
           <span style="color: rgb(197, 236, 175); margin: 0px;">
-            University of South Carolina, Columbia.
+            University of South Carolina, Columbia, Majoring in Computer Science.
           </span>
           My main interest going into Computer Science has been
           <span style="color: rgb(197, 236, 175); margin: 0px;">
@@ -25,7 +25,7 @@
           </span>
           but going into my senior year, I've become more interested in
           <span style="color: rgb(197, 236, 175); margin: 0px;">
-            full-stack development,
+            web development,
           </span>
           as well as
           <span style="color: rgb(197, 236, 175); margin: 0px;">
@@ -105,7 +105,7 @@
 }
 
 #content {
-  width: 85%;
+  width: 100%;
   text-align: left;
   position: relative;
   margin-top: 25px;
