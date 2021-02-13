@@ -18,3 +18,11 @@ I have been interested in UI/UX design and thought that creating a portfolio was
 ## Credits
 [AOS](https://github.com/michalsnik/aos)
 
+```
+clone
+cd web-app
+npm install
+npm run serve (local-host testing)
+npm run build
+npm run deploy
+```
