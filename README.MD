@@ -15,14 +15,6 @@ I have been interested in UI/UX design and thought that creating a portfolio was
 - CSS
 - JS
 
-## Installation && Tests
-1. clone 
-2. cd web-app 
-3. npm install
-4. npm run serve (local-host testing)
-5. npm run build 
-6. npm run deploy
-
 ## Credits
 [AOS](https://github.com/michalsnik/aos)
 
